@@ -28,3 +28,4 @@ subplot(2, 2, 1),plot( t*1e6, real(st) ),xlabel('相对于t_{0}时间(\mus)'),ylabel(
 subplot(2, 2, 3),plot( t*1e6, imag(st) ),xlabel('相对于t_{0}时间(\mus)'),ylabel('幅度'),title('Chirp信号虚部');
 subplot(2, 2, 4),plot( t*1e6, f_chirp/1e6 ),xlabel('相对于t_{0}时间(\mus)'),ylabel('频率 /MHz'),title('Chirp信号频率');
 subplot(2, 2, 2),plot( t*1e6, phase_chirp ),xlabel('相对于t_{0}时间(\mus)'),ylabel('相位 /rad'),title('Chirp信号相位');
+suptitle('图3.1 线性调频脉冲的相位和频率')
